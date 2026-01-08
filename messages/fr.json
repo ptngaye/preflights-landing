@@ -1,0 +1,166 @@
+{
+  "metadata": {
+    "title": "Preflights - Vibe code sans perdre l'architecture",
+    "description": "Vibe code vite. Sans perdre la clarté architecturale. Preflights force l'explicitation des décisions avant que l'IA code."
+  },
+  "header": {
+    "nav": {
+      "problem": "Problème",
+      "howItWorks": "Fonctionnement",
+      "output": "Résultats",
+      "integrations": "Intégrations",
+      "faq": "FAQ"
+    },
+    "cta": "Installer le CLI"
+  },
+  "hero": {
+    "title": "Vibe code vite.",
+    "titleAccent": "Sans perdre la clarté architecturale.",
+    "subtitle": "Preflights force l'explicitation des décisions avant que l'IA code. Pour éviter toute hypothèse implicite.",
+    "ctaPrimary": "Installer le CLI",
+    "ctaSecondary": "Voir le fonctionnement"
+  },
+  "problem": {
+    "title": "Le vrai problème du dev assisté par IA",
+    "intro": "Les outils de code assisté par IA sont extrêmement rapides. Le vrai problème n'est pas la vitesse. C'est ce qui est implémenté sans avoir été décidé explicitement :",
+    "cards": {
+      "implicit": {
+        "title": "Choix faits par supposition",
+        "description": "L'IA choisit des patterns que tu n'as jamais validés"
+      },
+      "inconsistencies": {
+        "title": "Incohérences entre fichiers",
+        "description": "Les petits choix s'accumulent en chaos structurel"
+      },
+      "rework": {
+        "title": "Rework déguisé en itération",
+        "description": "Tu n'itères pas — tu défais"
+      },
+      "debt": {
+        "title": "Dérive technique détectée trop tard",
+        "description": "Personne ne sait pourquoi c'est construit comme ça"
+      }
+    },
+    "closing": "L'IA ne manque pas d'intelligence. Elle manque de contexte explicite. Preflights sert à rendre ce contexte explicite."
+  },
+  "separation": {
+    "title": "Un modèle mental, pas un process",
+    "intro": "La plupart des outils IA mélangent tout. Preflights sépare trois activités qui ne devraient jamais être confondues :",
+    "decide": {
+      "title": "Décider",
+      "description": "Rendre les hypothèses explicites"
+    },
+    "specify": {
+      "title": "Spécifier",
+      "description": "Définir ce qui doit être implémenté maintenant"
+    },
+    "implement": {
+      "title": "Implémenter",
+      "description": "Laisser l'IA exécuter"
+    },
+    "closing": "Preflights ne génère pas de code. Il génère de la clarté."
+  },
+  "pipeline": {
+    "title": "Comment ça marche",
+    "intro": "Vous partez d'une intention. Si quelque chose est ambigu ou structurant, Preflights pose quelques questions ciblées.",
+    "bullets": {
+      "ask": "Les hypothèses implicites deviennent explicites",
+      "write": "Les décisions sont écrites",
+      "keep": "L'exécution est clairement cadrée"
+    },
+    "nodes": {
+      "intent": "Intention",
+      "clarify": "Clarifier",
+      "decisions": "Décisions",
+      "executionPlan": "Plan d'exécution",
+      "aiImplementation": "Implémentation IA"
+    }
+  },
+  "outputs": {
+    "title": "Ce que tu obtiens",
+    "cards": {
+      "adr": {
+        "title": "Des décisions explicites",
+        "description": "Capturées et versionnées quand c'est nécessaire.",
+        "label": "ADR"
+      },
+      "task": {
+        "title": "Une intention d'exécution explicite",
+        "description": "Avec un scope clair et implémentable.",
+        "label": "TASK"
+      },
+      "state": {
+        "title": "Un snapshot d'architecture vivant",
+        "description": "Compact, lisible, toujours à jour.",
+        "label": "STATE"
+      }
+    },
+    "closing": "Du Markdown simple. Lisible pour les humains. Fiable pour les agents IA."
+  },
+  "workflow": {
+    "title": "Un flux simple et explicite",
+    "steps": {
+      "step1": "Vous exprimez une intention",
+      "step2": "Preflights clarifie ce qui est implicite",
+      "step3": "Les décisions et le brief d'exécution sont écrits",
+      "step4": "L'agent IA implémente — sans décider"
+    },
+    "punchline": "L'IA exécute. Les humains décident. Preflights impose la frontière."
+  },
+  "integrations": {
+    "title": "Fonctionne avec vos outils IA existants",
+    "bullets": {
+      "cli": "**CLI-first** par conception (recommandé)",
+      "mcp": "**Cursor, Claude et autres** via MCP comme filet de sécurité",
+      "guardrail": "Preflights ne remplace rien. C'est un garde-fou."
+    }
+  },
+  "positioning": {
+    "isNot": {
+      "title": "Preflights n'est pas :",
+      "items": {
+        "codeGen": "un générateur de code",
+        "agent": "un remplacement de Claude / Cursor",
+        "workflow": "un process enterprise rigide"
+      }
+    },
+    "is": {
+      "title": "Preflights est :",
+      "items": {
+        "clarification": "un moteur de clarification",
+        "capture": "un système de capture de décisions",
+        "safety": "un garde-fou pour le vibe coding"
+      }
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "items": [
+      {
+        "question": "Preflights écrit-il du code ?",
+        "answer": "Non. Il produit des décisions explicites et des briefs d'exécution. L'agent écrit le code."
+      },
+      {
+        "question": "Et si j'écris déjà des prompts très cadrés ?",
+        "answer": "Vous n'en avez probablement pas besoin. Preflights est utile quand l'intention est encore floue."
+      },
+      {
+        "question": "Dois-je changer mon workflow ?",
+        "answer": "Non. Preflights s'intègre autour de vos outils existants."
+      },
+      {
+        "question": "Seulement Cursor/Claude ?",
+        "answer": "Fonctionne avec tout agent qui lit du Markdown et respecte un scope."
+      },
+      {
+        "question": "Est-ce open source ?",
+        "answer": "Oui. Licence Apache-2.0, permissive et neutre."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "Pour les devs qui vibe code — et livrent propre.",
+    "github": "GitHub",
+    "license": "Apache-2.0"
+  }
+}

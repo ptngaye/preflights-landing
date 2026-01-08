@@ -1,0 +1,166 @@
+{
+  "metadata": {
+    "title": "Preflights - Vibe code without losing architecture",
+    "description": "Vibe code fast. Don't lose architectural clarity. Preflights forces decisions to be explicit before AI writes code."
+  },
+  "header": {
+    "nav": {
+      "problem": "Problem",
+      "howItWorks": "How it Works",
+      "output": "Output",
+      "integrations": "Integrations",
+      "faq": "FAQ"
+    },
+    "cta": "Install CLI"
+  },
+  "hero": {
+    "title": "Vibe code fast.",
+    "titleAccent": "Don't lose architectural clarity.",
+    "subtitle": "Preflights forces decisions to be explicit before AI writes code. So nothing important is left to assumptions.",
+    "ctaPrimary": "Install the CLI",
+    "ctaSecondary": "See how it works"
+  },
+  "problem": {
+    "title": "The real problem with AI-assisted coding",
+    "intro": "AI coding tools are incredibly fast. The real problem is not speed. It's what gets implemented without being explicitly decided:",
+    "cards": {
+      "implicit": {
+        "title": "Choices made by assumption",
+        "description": "The AI picks patterns you never validated"
+      },
+      "inconsistencies": {
+        "title": "Inconsistencies across files",
+        "description": "Small choices compound into structural mess"
+      },
+      "rework": {
+        "title": "Rework disguised as iteration",
+        "description": "You're not iterating — you're undoing"
+      },
+      "debt": {
+        "title": "Technical drift noticed too late",
+        "description": "No one knows why it's built this way"
+      }
+    },
+    "closing": "AI doesn't lack intelligence. It lacks explicit context. Preflights exists to make that context explicit."
+  },
+  "separation": {
+    "title": "A mental model, not a process",
+    "intro": "Most AI tools mix everything together. Preflights separates three activities that should never be confused:",
+    "decide": {
+      "title": "Decide",
+      "description": "Make assumptions explicit"
+    },
+    "specify": {
+      "title": "Specify",
+      "description": "Define what must be implemented now"
+    },
+    "implement": {
+      "title": "Implement",
+      "description": "Let the AI execute"
+    },
+    "closing": "Preflights does not generate code. It generates clarity."
+  },
+  "pipeline": {
+    "title": "How it works",
+    "intro": "You start with an intention. If something is ambiguous or structurally impactful, Preflights asks a few targeted questions.",
+    "bullets": {
+      "ask": "Implicit assumptions become explicit",
+      "write": "Decisions are written down",
+      "keep": "Execution is clearly scoped"
+    },
+    "nodes": {
+      "intent": "Intent",
+      "clarify": "Clarify",
+      "decisions": "Decisions",
+      "executionPlan": "Execution Plan",
+      "aiImplementation": "AI Implementation"
+    }
+  },
+  "outputs": {
+    "title": "What you get",
+    "cards": {
+      "adr": {
+        "title": "Explicit decisions",
+        "description": "Captured and versioned when they matter.",
+        "label": "ADR"
+      },
+      "task": {
+        "title": "Explicit execution intent",
+        "description": "Clearly scoped, safe to implement.",
+        "label": "TASK"
+      },
+      "state": {
+        "title": "A living architecture snapshot",
+        "description": "Compact, readable, always up to date.",
+        "label": "STATE"
+      }
+    },
+    "closing": "Plain Markdown. Readable by humans. Reliable for AI agents."
+  },
+  "workflow": {
+    "title": "A simple, explicit flow",
+    "steps": {
+      "step1": "You state an intention",
+      "step2": "Preflights clarifies what is implicit",
+      "step3": "Decisions and an execution brief are written",
+      "step4": "Your AI agent implements — without deciding"
+    },
+    "punchline": "AI executes. Humans decide. Preflights enforces the boundary."
+  },
+  "integrations": {
+    "title": "Works with your existing AI tools",
+    "bullets": {
+      "cli": "**CLI-first** by design (recommended)",
+      "mcp": "**Cursor, Claude and others** via MCP as a safety net",
+      "guardrail": "Preflights is not a replacement. It's a guardrail."
+    }
+  },
+  "positioning": {
+    "isNot": {
+      "title": "Preflights is not:",
+      "items": {
+        "codeGen": "a code generator",
+        "agent": "a replacement for Claude / Cursor",
+        "workflow": "a rigid enterprise process"
+      }
+    },
+    "is": {
+      "title": "Preflights is:",
+      "items": {
+        "clarification": "a clarification engine",
+        "capture": "a decision capture system",
+        "safety": "a guardrail for vibe coding"
+      }
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "items": [
+      {
+        "question": "Does Preflights write code?",
+        "answer": "No. It produces explicit decisions and execution briefs. Your agent writes the code."
+      },
+      {
+        "question": "What if I already write very explicit prompts?",
+        "answer": "Then you may not need Preflights. It's designed for moments where intent is still fuzzy."
+      },
+      {
+        "question": "Do I need to change my workflow?",
+        "answer": "No. Preflights fits around your existing tools."
+      },
+      {
+        "question": "Is it only for Cursor/Claude?",
+        "answer": "Works with any agent that reads Markdown and respects scope."
+      },
+      {
+        "question": "Is it open source?",
+        "answer": "Yes. Apache-2.0. Permissive and vendor-neutral."
+      }
+    ]
+  },
+  "footer": {
+    "tagline": "For developers who vibe code — and ship clean.",
+    "github": "GitHub",
+    "license": "Apache-2.0"
+  }
+}
